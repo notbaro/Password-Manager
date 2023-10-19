@@ -1,0 +1,74 @@
+html {
+    background-color: #282c34;
+    color: #abb2bf;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddingPassword {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #21252B;
+}
+
+.AddingPassword input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    margin: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: #61afef;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: #61afef;
+    opacity: 0.8;
+    border: 3px solid #e06c75;
+}
+
+input {
+    background-color: #1D1F23;
+    color: white;
+}
+
+.Passwords {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.password {
+    width: 400px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #21252B;
+    color: #abb2bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
